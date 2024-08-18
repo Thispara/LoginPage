@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import './Auth.css'; // Import the CSS file
 
 const Register = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,7 +22,7 @@ const Register = () => {
       if (response.ok) {
         const result = await response.text();
         alert(result);
-        window.location.href = '/login';
+        navigate('/login');
       } else {
         const error = await response.text();
         alert(`Error: ${error}`);
