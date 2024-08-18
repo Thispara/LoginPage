@@ -60,6 +60,10 @@
   color: #1e1e1e;
 }
 
+.login-btn:hover{
+  background-color: #262626;
+}
+
 .register-btn:hover {
   background-color: #ffcc00;
 }
