@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1e1e1e; /* Dark background for night theme */
+  color: #f0f0f0; /* Light text color for contrast */
+}
+
+/* Main content area styles */
+.main-content {
+  flex: 1; /* Allow the main content to take up available space */
+  padding: 1rem; /* Add some padding for content spacing */
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #f0f0f0;
+  background-color: #1e1e1e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0; /* Light text color */
+}
+
+a {
+  text-decoration: none;
+  color: #ff9900; /* Highlight links with a bright color */
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: #333; /* Dark button background */
+  color: #f0f0f0; /* Light text color for buttons */
+  padding: 0.5rem 1rem; /* Add some padding for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+

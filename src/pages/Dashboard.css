@@ -1,0 +1,88 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+    color: #000; /* Black text */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c; /* Darker header background */
+    color: #ff9900; /* Binance yellow for header text */
+  }
+  
+  .logout-btn {
+    padding: 10px 20px;
+    background-color: #ff9900; /* Binance yellow for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000; /* Black text on button */
+    font-size: 1rem;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ffae34; /* Slightly darker yellow on hover */
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .dashboard-sidebar {
+    width: 250px;
+    background-color: #1e1e1e;  
+    color: #ff9900; /* Binance yellow for sidebar text */
+    padding: 20px;
+  }
+  
+  .dashboard-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-sidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dashboard-sidebar li:hover {
+    background-color: #2a2a2a; /* Slightly lighter dark on hover */
+    color: #fff; /* Black text on hover */
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #181818; /* Darker background for main content */
+    overflow-y: auto;
+  }
+  
+  .overview, .account-balance, .recent-activities, .profile-summary {
+    background-color: #222222; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff; 
+  }
+  
+  .balance-card h4 {
+    font-size: 2rem;
+    color: #ff9900; 
+  }
+  
+  .recent-activities li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333; /* Darker border for list items */
+  }
+  
