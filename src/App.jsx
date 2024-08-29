@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import Dashboard from './pages/Dashboard';
-import './App.css'; // Global styles
+import './App.css';
 
 const App = () => {
   return (
